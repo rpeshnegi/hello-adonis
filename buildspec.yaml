@@ -14,7 +14,7 @@ phases:
   # post_build:
   #   commands:
 
-# artifacts:
-#   files:
-#     - 'dist/**/*'
-#   name: build-demo2-artifacts
+artifacts:
+  files:
+    - './dist/**/*'
+  name: build-demo2-artifacts
