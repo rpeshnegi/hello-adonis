@@ -16,5 +16,5 @@ phases:
 
 artifacts:
   files:
-    - './dist/**/*'
+    - './build/**/*'
   name: build-demo2-artifacts
