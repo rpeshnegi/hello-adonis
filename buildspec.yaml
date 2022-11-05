@@ -16,4 +16,5 @@ phases:
 
 artifacts:
   files:
-    - '**/*'
+    - 'dist/**/*'
+    - 'codepipeline-eu-west-1-700310422187'
