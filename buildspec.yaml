@@ -16,5 +16,6 @@ phases:
 
 artifacts:
   files:
-    - './build/**'
+    - './**/*'
   name: build-demo2-artifacts
+  base-directory: 'build'
