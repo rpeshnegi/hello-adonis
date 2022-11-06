@@ -12,12 +12,9 @@ phases:
 
   post_build:
     commands:
-          - cd ./build && npm install --production && cd ..
-
-  # post_build:
-  #   commands:
+          - cd ./build && npm install --production
 
 artifacts:
   files:
-    - './build/**/*'
+    - './build/**'
   name: build-demo2-artifacts
