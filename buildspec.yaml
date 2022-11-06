@@ -10,6 +10,9 @@ phases:
     commands:
           - npm run build
 
+  post_build:
+    commands:
+          - cd ./build && npm install --production && cd ..
 
   # post_build:
   #   commands:
